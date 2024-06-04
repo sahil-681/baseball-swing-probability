@@ -21,7 +21,7 @@ library(gbm)
 library(e1071)
 ```
 
-## Our goal is to give a SwingProbability for all pitches in the `year 3` dataset. There is no description column for these pitches for year 3. The CSV files contain information from around 2,000,000 pitches from baseball games over three years. There are 17 columns (definitions can be found in the documentation csv):
+Our goal is to give a SwingProbability for all pitches in the `year 3` dataset. There is no description column for these pitches for year 3. The CSV files contain information from around 2,000,000 pitches from baseball games over three years. There are 17 columns (definitions can be found in the documentation csv):
 
 ```{r}
 # Load the data
